@@ -36,6 +36,12 @@ header {
 }
 .imagembeneficios{
 	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px #000000;
+}
+.imagembeneficios:hover{
+	opacity: 0.3;
 }
 .beneficios{
 	padding: 3em 0;
@@ -214,4 +220,18 @@ td, th {
 .mapa-conteudo{
 	width: 940px;
 	margin: 0 auto;
+}
+@media screen and (max-width: 480){
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+		width: auto;
+	}
+	h1{
+		text-align: center;
+	}
+	nav {
+		position: static;
+	}
+	.lista-beneficios, .imagembeneficios{
+		width: 100%;
+	}
 }
