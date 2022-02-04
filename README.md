@@ -1,1 +1,1 @@
-# Estudo-HTML-CSS
+Projeto criado para aplicar conhecimento durante curso Alura
